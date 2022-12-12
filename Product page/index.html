@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail | Page </title>
+  <style>
+    table {
+      /* border: 1px solid black; */
+      width: 1100px;
+      margin:auto;
+      border-collapse: collapse;
+      font-family: 'Trebuchet MS';
+    }
+
+    tr,td{
+       /* border: 1px solid black; */
+       padding: 5px;
+
+    }
+
+    h3{
+    font-size: 32px;
+    }
+    .buy{
+      font-family: 'Franklin Gothic Medium';
+      font-weight: bold;
+      margin:10px 30px;
+      color: white;
+      padding: 10px 20px;
+      background-color: #ff0066;
+      border:2px solid #ff0066;
+      border-radius: 10px;
+      transition: .5s;
+    }
+
+    .buy:hover{
+      border:2px solid #ff0066;
+      background-color: white;
+      color: #ff0066;
+      transition: .5s;
+
+    }
+
+    .credit{
+      font-family: 'Franklin Gothic Medium';
+      font-weight: bold;
+      color: white;
+      background-color:#00ccff;
+      border: 2px solid #00ccff;
+      border-radius: 10px;
+      margin-left:20px;
+      margin-bottom: 10px;
+      padding: 10px 20px;
+      transition: .5s;
+    }
+
+    .credit:hover{
+      border: 2px solid #00ccff;
+      background-color: white;
+      color: #00ccff;
+      transition: 0.5s;
+    }
+   
+    .second{
+      width: 33%;
+    }
+    img{
+      width: 100%;
+    }
+    .promotion{
+      background-color: #0099e6;
+      color: white;
+      width:90%;
+      margin: 50px auto;
+      border-radius: 20px;
+      padding: 10px;
+    }
+
+    .timer{
+      border:1px solid white;
+      border-radius: 10px;
+      text-align: center;
+      margin-top:0;
+    }
+
+    ul{
+      list-style: none;
+    }
+    .description-list{
+      padding-left:100px ;
+    }
+    .description-caracteristics{
+      font-weight: bold;
+      padding: 0;
+    }
+
+    .stars{
+      text-align: center;
+    }
+
+    .parametri{
+      padding-left:80px;
+    }
+
+    .parametri li{
+      padding: 5px;
+      background-color: #d9d9d9;
+      margin-top:2px;
+      border-radius: 2px;
+      
+    }
+
+    .parametri-rsp{
+      padding: 0;
+      
+    }
+
+    .parametri-rsp li{
+      width: 30%;
+      padding: 5px;
+      background-color: #d9d9d9;
+      margin-top:2px;
+      border-radius: 2px;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td colspan="12">
+        <h1>Mașină de spălat Electrolux EW8F228S</h1>
+        <p>Full size/ 8 kg/ White</p>
+      </td>
+      <!--<td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>-->
+    </tr>
+
+    <tr class="second">
+      <td colspan="4" rowspan="2">
+        <img src="images/product-1.webp" alt="Masina de spalat Electrolux" title="Masina de spalat Electrolux EW8F228S white, photo-enter.online">
+      </td>
+      <!-- <td>2</td>
+      <td>3</td>
+      <td>4</td> -->
+      <td colspan="4" valign="top">
+        <div class="promotion">
+        <h2>Procentele pleaca in vacanta! Alege electrocasnice si televizoare in 12 rate cu 0%!</h2>
+        <p>Pina la finalizarea promotiei a ramas:</p>
+        <h2 class="timer">00:00:01:05</h2>
+      </div>
+      </td>
+      <!-- <td>6</td>
+      <td>7</td>
+      <td>8</td> -->
+      <td colspan="4">
+        <form action="https://www.paypal.com/md/home">
+          <label>
+            Cantitatea
+            <select name="quantity">
+              <option selected>1</option>
+              <option>2</option>
+              <option>5</option>
+              <option>10</option>
+            </select>
+          </label>
+           <h3>11999 LEI</h3>
+           <label>
+           <input name="agree" type="checkbox" required>Sunt de acord cu termenii si conditiile! </label><br>
+          <button class="buy">CUMPĂRĂ</button>
+        </form>
+
+        <form action="https://bnm.md/">
+          <h4>Pretul creditului de la 1000lei/luna</h4>
+          <button class="credit">SOLICITĂ CREDIT</button>
+        </form>
+      </td>
+      <!-- <td>10</td>
+      <td>11</td>
+      <td>12</td> -->
+    </tr>
+    <tr>
+      <!-- <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td> -->
+      <td colspan="2" valign="top">
+        <ul class="description-list">
+          <li>Încărcătura maximală</li>
+          <li>Mod încărcare</li>
+          <li>Nivelul zgomotului la stoarcere</li>
+          <li>Clasa energetică</li>
+          <li>Consumul de apă per ciclu</li>
+        </ul>
+      </td>
+      <!-- <td>6</td> -->
+      <td colspan="2" valign="top" >
+        <ul class="description-caracteristics">
+          <li>8 kg</li>
+          <li>Frontală</li>
+          <li>73 dB</li>
+          <li>C</li>
+          <li>47 l</li>
+        </ul>
+            
+      </td>
+      <!-- <td>8</td> -->
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td colspan="12" class="stars">
+        ⭐ ⭐ ⭐ ⭐ ⭐
+      </td>
+      <!-- <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td> -->
+    </tr>
+    <tr>
+      <td colspan="12">
+        <h4>Caracteristici tehnici</h4>
+      </td>
+      <!-- <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td> -->
+    </tr>
+    <tr>
+      <td colspan="6" >
+        <h4>Parametrii de bază</h4>
+      </td>
+      <!-- <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td> -->
+      <td colspan="6">
+        <h4>Culori</h4>
+      </td>
+      <!-- <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td> -->
+    </tr>
+    <tr>
+      <td colspan="3">
+        <ul class="parametri">
+          <li>Anularea stoarcerii</li>
+          <li>Spălare cu abur</li>
+          <li>Controlul nivelului spumei</li>
+          <li>Controlul dezechilibrului</li>
+        </ul>
+      </td>
+      <!-- <td>2</td>
+      <td>3</td> -->
+      <td colspan="3">
+        <ul class="parametri-rsp">
+          <li>DA</li>
+          <li>DA</li>
+          <li>DA</li>
+          <li>DA</li>
+        </ul>
+      </td>
+      <!-- <td>5</td>
+      <td>6</td> -->
+      <td colspan="3">7</td>
+      <!-- <td>8</td>
+      <td>9</td> -->
+      <td colspan="3">10</td>
+      <!-- <td>11</td>
+      <td>12</td> -->
+    </tr>
+    <tr>
+      <td colspan="3">1</td>
+      <!-- <td>2</td>
+      <td>3</td> -->
+      <td colspan="3">4</td>
+      <!-- <td>5</td>
+      <td>6</td> -->
+      <td colspan="3">7</td>
+      <!-- <td>8</td>
+      <td>9</td> -->
+      <td colspan="3">10</td>
+      <!-- <td>11</td>
+      <td>12</td> -->
+    </tr>
+  </table>
+  
+</body>
+</html>
